@@ -18,6 +18,39 @@ Prerequisites
     
 2.  **Twitter Developer Account**: You need to have a Twitter developer account and a project/app with API keys and tokens.
     
+Getting Started
+---------------
+
+### 1. Clone the Repository
+
+Run the following commands to clone the repository:
+
+```
+git clone https://github.com/rsauri/w6_go_twitter
+cd w6_go_twitter
+```
+
+### 2. Create a .env File
+
+In the root of the project, create a .env file with your Twitter API credentials:
+
+```
+TWITTER_API_KEY=your-twitter-api-key
+TWITTER_API_SECRET_KEY=your-twitter-api-secret-key
+TWITTER_ACCESS_TOKEN=your-access-token
+TWITTER_ACCESS_TOKEN_SECRET=your-access-token-secret
+```
+
+### 3. Run the Application
+
+Run the following command:
+
+```
+go run main.go
+```
+
+The server will start running on http://localhost:8080.
+
 API Endpoints
 -------------
 
